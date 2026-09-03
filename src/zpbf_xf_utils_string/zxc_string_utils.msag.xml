@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZXC_STRING_UTILS</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes de utilidades de string</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRING_UTILS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>La estructura &amp;1 no existe en el diccionario.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRING_UTILS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>El nombre &amp;1 no corresponde a una estructura.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRING_UTILS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error al parsear los datos hacia la estructura &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRING_UTILS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>La cantidad de columnas no coincide con la estructura &amp;1.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

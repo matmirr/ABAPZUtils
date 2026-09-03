@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_XC_APP_LOG</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Contrato del log de aplicación</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ERROR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un mensaje de error (E) al log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_EXCEPTION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega una excepción al log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_FREE_TEXT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un texto libre al log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_FROM_BAPIRET</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega mensajes desde una tabla BAPIRET2</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_FROM_SY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un mensaje desde las variables de sistema (SY-MSG*)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un mensaje informativo (I) al log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_MESSAGE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un mensaje al log por clase y número</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_SUCCESS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un mensaje de éxito (S) al log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_WARNING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un mensaje de advertencia (W) al log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_HANDLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve el handle del log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MESSAGES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve todos los items del log en memoria</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Persiste el log en base de datos</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

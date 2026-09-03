@@ -1,0 +1,9 @@
+@EndUserText.label: 'Definición del servicio para CFG RICEF'
+define service ZXC_SD_RICEF {
+  expose ZC_XC_RICEFH        as RicefHeader;
+  expose ZC_XC_RICEFI        as RicefItem;
+  expose ZI_XC_RICEF_KIND_VH as TypeValueHelp;
+  expose ZI_XC_SIGN_VH       as SignValueHelp;
+  expose ZI_XC_OPTI_VH       as OptiValueHelp;
+  expose ZC_XC_RICEFT        as RicefText;
+}

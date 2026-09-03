@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_XC_OBJECT_REPOSITORY</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Contrato de repositorio de objetos persistidos</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Borra un objeto puntual de una corrida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_RUN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Borra todos los objetos de una corrida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LIST_RUNS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lista las corridas de un proceso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera un objeto puntual de una corrida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD_RUN</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera todos los objetos de una corrida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Persiste un objeto bajo una corrida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TS_PERS_OBJ</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Objeto persistido recuperado</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TS_RUN_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Información de una corrida</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_PERS_OBJ</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla de objetos persistidos recuperados</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_RUN_INFO</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla de información de corridas</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

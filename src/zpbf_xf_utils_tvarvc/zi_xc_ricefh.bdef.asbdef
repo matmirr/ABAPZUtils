@@ -1,0 +1,101 @@
+managed implementation in class zcl_xc_ricefh_bp unique;
+strict ( 2 );
+with draft;
+
+define behavior for ZI_XC_RICEFH alias Header
+persistent table zxc_tbl_ricefh
+draft table zxc_drf_ricefh
+lock master
+total etag LocalLastChg
+authorization master ( instance )
+etag master LastChangedAt
+{
+  create; update; delete;
+
+  field ( mandatory : create ) Ricefid;
+  field ( readonly : update ) Ricefid;
+  field ( readonly ) CreatedAt, CreatedBy, LastChangedAt, LastChangedBy, LocalLastChg, VariantsCount;
+
+  draft action Edit;
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Resume;
+  draft determine action Prepare
+    {
+      validation validateRicefid;
+      validation Item~validateEmpty;
+      validation Item~validateDuplicates;
+    }
+
+  action MaintainText parameter ZD_XC_RICEF_TEXTP result [1] $self;
+  action TransportDevelopment parameter ZD_XC_TR_PARAM result [1] $self;
+  validation validateRicefid on save { field Ricefid; create; update; }
+
+  association _Item { create; with draft; }
+  association _Text { create; with draft; }
+  association _LocalizedText { with draft; }
+
+  mapping for zxc_tbl_ricefh
+  {
+    Ricefid       = ricefid;
+    CreatedBy     = created_by;
+    CreatedAt     = created_at;
+    LastChangedBy = last_changed_by;
+    LastChangedAt = last_changed_at;
+    LocalLastChg  = local_last_chg;
+  }
+}
+
+define behavior for ZI_XC_RICEFI alias Item
+persistent table zxc_tbl_ricefi
+draft table zxc_drf_ricefi
+lock dependent by _Header
+authorization dependent by _Header
+etag master LocalLastChg
+{
+  update; delete;
+
+  field ( readonly ) Ricefid;
+  field ( numbering : managed, readonly ) ItemUuid;
+  field ( readonly ) Numb, LocalLastChg;
+  field ( mandatory ) Name, Type;
+  field ( features : instance ) Sign, Opti, High;
+
+  determination formatName on modify { field Name; }
+  determination determineTypeFromName on modify { field Name; }
+  determination calculateNumb on modify { field Name, Type; create; }
+  determination clearFieldsOnTypeP on modify { field Type; }
+  determination defaultValuesOnTypeS on modify { field Type; }
+
+  validation validateEmpty on save { field Name; create; update; }
+  validation validateDuplicates on save { field Name, Type; create; update; }
+
+  association _Header { with draft; }
+
+  mapping for zxc_tbl_ricefi
+  {
+    ItemUuid     = item_uuid;
+    Ricefid      = ricefid;
+    Name         = name;
+    Type         = type;
+    Numb         = numb;
+    Sign         = sign;
+    Opti         = opti;
+    Low          = low;
+    High         = high;
+    LocalLastChg = local_last_chg;
+  }
+}
+
+define behavior for ZI_XC_RICEFT alias Text
+persistent table zxc_tbl_riceft
+draft table zxc_drf_riceft
+lock dependent by _Header
+authorization dependent by _Header
+etag master LocalLastChg
+{
+  update; delete;
+  field ( readonly ) Ricefid, Spras, LocalLastChg;
+  association _Header { with draft; }
+  mapping for zxc_tbl_riceft { Ricefid = ricefid; Spras = spras; Description = description; LocalLastChg = local_last_chg; }
+}

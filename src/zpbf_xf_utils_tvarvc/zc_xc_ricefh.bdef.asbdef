@@ -1,0 +1,45 @@
+projection;
+strict ( 2 );
+use draft;
+
+define behavior for ZC_XC_RICEFH alias Header
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+  use action MaintainText;
+  use action TransportDevelopment;
+
+  use association _Item { create; with draft; }
+  use association _Text { create; with draft; }
+  use association _LocalizedText { with draft; }
+
+  side effects {
+    action MaintainText affects field SessionDescription;
+  }
+}
+
+define behavior for ZC_XC_RICEFI alias Item
+{
+  use update;
+  use delete;
+
+  side effects {
+    field Type affects field Sign, field Opti, field High, field Numb, permissions ( field Sign, field Opti, field High );
+    field Name affects field Type, field Numb, field Sign, field Opti, permissions ( field Sign, field Opti, field High );
+  }
+
+  use association _Header { with draft; }
+}
+
+define behavior for ZC_XC_RICEFT alias Text {
+  use update; use delete;
+  use association _Header { with draft; }
+}

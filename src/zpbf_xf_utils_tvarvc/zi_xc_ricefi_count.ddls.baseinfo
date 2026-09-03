@@ -1,0 +1,7 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZXC_TBL_RICEFI"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_XC_HTML_ELEMENT</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Contrato de un nodo HTML</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_ATTRIBUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un atributo al nodo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_CHILD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un nodo hijo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_VALUE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve el contenido textual del nodo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HAS_CHILD</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Indica si el nodo tiene hijos</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_VALUE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Define el contenido textual del nodo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TO_HTML</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Renderiza el nodo (y sus hijos) a HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TS_ATTRIBUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Par nombre/valor para atributos HTML</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TT_ELEMENT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Tabla de nodos HTML</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

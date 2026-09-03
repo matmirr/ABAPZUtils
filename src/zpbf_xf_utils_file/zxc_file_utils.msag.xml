@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZXC_FILE_UTILS</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes de utilidades de archivos</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>No se pudo abrir el archivo &amp;1 para escritura.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No se pudo abrir el archivo &amp;1 para lectura.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error al escribir en el archivo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>El archivo &amp;1 no existe.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>El archivo &amp;1 está fuera del ámbito seguro &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No se pudo determinar el ámbito seguro (vía lógica &amp;1).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No se pudo obtener el bloqueo para el archivo &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error al listar el directorio &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_FILE_UTILS</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error al calcular el hash del contenido</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

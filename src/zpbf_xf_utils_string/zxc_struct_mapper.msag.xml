@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZXC_STRUCT_MAPPER</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Mensajes del mapeador de estructuras</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRUCT_MAPPER</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRUCT_MAPPER</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>El campo &amp;1 no existe en la estructura.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRUCT_MAPPER</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>El dato proporcionado no es una estructura.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRUCT_MAPPER</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>El transformador &amp;1 no está registrado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRUCT_MAPPER</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>No se encontró configuración para el proceso &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_STRUCT_MAPPER</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>El valor &amp;1 no tiene mapeo definido en el transformador.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

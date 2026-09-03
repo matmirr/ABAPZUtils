@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_XC_STRING_UTILS</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Contrato de utilidades de string</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>DETERMINE_LINE_SEP</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determina el separador de registro de un texto</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>STRING_TO_ITAB</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Construye una tabla interna a partir de un string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>STRUCT_TO_STRING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Convierte una estructura en una cadena de caracteres</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

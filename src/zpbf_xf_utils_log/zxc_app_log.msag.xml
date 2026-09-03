@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZXC_APP_LOG</ARBGB>
+    <MASTERLANG>S</MASTERLANG>
+    <STEXT>Clase de mensajes para manejador de log de aplicaciones</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Cabecera de Log inconsistente. Objeto: &amp;1, Subobjeto: &amp;2, Num.Externo: &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>El objeto de Log no pudo ser referenciado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Mensaje de Log inconsistente.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Se alcanzó el mensaje 999999. El Log se encuentra lleno.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Perfil de visualización inconsistente para el Log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error interno al formatear los datos del Log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>No existen datos para ser visualizados en el Log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>No existe autorización para visualizar el Log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Log no encontrado.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error al grabar el Log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Error de asignación de números del Log.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Error al intentar remover el Log de memoria.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>S</SPRSL>
+     <ARBGB>ZXC_APP_LOG</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>No se pudo recuperar el log a través del manejador de Log: &amp;1.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

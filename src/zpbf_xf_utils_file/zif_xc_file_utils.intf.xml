@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_XC_FILE_UTILS</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Contrato de utilidades de archivos del AS</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>APPEND_FILE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega el contenido de un archivo al final de otro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>APPEND_STRING</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Agrega un string al final de un archivo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CALCULATE_HASH</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Calcula el hash de un contenido binario</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DEFENSIVE_CHECK</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Verifica que las rutas estén dentro del ámbito seguro</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LIST</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lista archivos de un directorio del application server</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>VERIFY_HASH</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Verifica el hash de un contenido</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>WRITE_FILE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Escribe un string en un archivo (sobrescribe)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

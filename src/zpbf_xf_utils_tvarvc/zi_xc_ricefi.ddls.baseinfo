@@ -1,0 +1,13 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZI_XC_OPTI_VH",
+      "ZI_XC_RICEF_KIND_VH",
+      "ZI_XC_SIGN_VH",
+      "ZXC_TBL_RICEFI"
+    ],
+    "ASSOCIATED": [
+      "ZI_XC_RICEFH"
+    ]
+  }
+}

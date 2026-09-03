@@ -1,0 +1,54 @@
+@Metadata.layer: #CORE
+@UI.headerInfo: { 
+    typeName: 'Constante', 
+    typeNamePlural: 'Constantes' 
+}
+annotate view ZC_XC_RICEFI with 
+{
+
+  @UI.hidden: true
+  ItemUuid;
+
+  @UI.hidden: true
+  Ricefid; 
+
+  @UI.lineItem: [{ position: 10, importance: #HIGH }]
+  @EndUserText.label: 'Nombre de la Variable'
+  Name;
+
+  @UI.lineItem: [{ position: 20, importance: #HIGH, cssDefault.width: '10rem' }]
+  @EndUserText.label: 'Tipo'
+  Type;
+
+  @UI.hidden: true
+  TypeDescription;
+
+  @UI.lineItem: [{ position: 30, importance: #HIGH, cssDefault.width: '5rem'  }]
+  @EndUserText.label: 'Nro Secuencia'
+  Numb;
+
+  @UI.lineItem: [{ position: 40, importance: #HIGH, cssDefault.width: '7rem' }]
+  @EndUserText.label: 'Signo (I/E)'
+  Sign;
+  
+  @UI.hidden: true
+  SignDescription;
+  
+  @UI.lineItem: [{ position: 50, importance: #HIGH, cssDefault.width: '9rem' }]
+  @EndUserText.label: 'Opción'
+  Opti;
+
+  @UI.hidden: true
+  OptiDescription;
+
+  @UI.lineItem: [{ position: 60, importance: #HIGH }]
+  @EndUserText.label: 'Valor Inferior'
+  Low;
+
+  @UI.lineItem: [{ position: 70, importance: #HIGH }]
+  @EndUserText.label: 'Valor Superior'
+  High;
+
+  @UI.hidden: true
+  LocalLastChg;
+}

@@ -1,0 +1,14 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZI_XC_RICEFT"
+    ],
+    "ASSOCIATED": [
+      "ZC_XC_RICEFH",
+      "ZI_XC_RICEFH"
+    ],
+    "BASE": [
+      "ZI_XC_RICEFT"
+    ]
+  }
+}

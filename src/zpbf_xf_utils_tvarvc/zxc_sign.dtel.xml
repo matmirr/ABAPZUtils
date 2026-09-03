@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZXC_SIGN</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZSIGN</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Signo (I/E)</DDTEXT>
+    <REPTEXT>Signo (I/E)</REPTEXT>
+    <SCRTEXT_S>(I/E)</SCRTEXT_S>
+    <SCRTEXT_M>Signo</SCRTEXT_M>
+    <SCRTEXT_L>Signo (I/E)</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>Signo (I/E)</DDTEXT>
+     <REPTEXT>Signo (I/E)</REPTEXT>
+     <SCRTEXT_S>(I/E)</SCRTEXT_S>
+     <SCRTEXT_M>Signo</SCRTEXT_M>
+     <SCRTEXT_L>Signo (I/E)</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
